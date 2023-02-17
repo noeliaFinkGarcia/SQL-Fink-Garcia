@@ -35,13 +35,14 @@ values (897556, 1000, 25, 1);
 insert into gastos (id_factura_compra, total_compra, cantidad_comprada, id_producto)
 values ( 89755,1200, 100, 7);
 
-select * from producto;
+delete from productovendido;
 
-insert into productoVendido (detalle, idFactura, idUsuario, idProducto)
-values ('2 boligrafos', 1234, 1, 1),
-('1 regla', 345, 1, 2),
-('3 fotocopias simple faz', 678, 3, 3),
-('1 carpeta A4', 456, 2, 8); 
+insert into productoVendido (detalle, idFactura, idUsuario, idProducto,cantidadVendida)
+values ('2 boligrafos', 1234, 1, 1, 10),
+('1 regla', 345, 1, 2, 8),
+('3 fotocopias simple faz', 678, 3, 3, 25),
+('1 carpeta A4', 456, 2, 8, 4 ); 
+
 
 select * from proveedores;
 

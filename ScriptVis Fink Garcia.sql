@@ -25,4 +25,13 @@ CREATE VIEW datos_proveedores AS
 SELECT nombre_proveedor AS Proveedor, contactoProveedor AS Contacto 
 FROM proveedores;
 
+CREATE VIEW Stock AS
+SELECT descripcion AS Descripción, stock AS Stock, cantidad_vendida AS Cantidad_vendida,
+producto.stock - productovendido.cantidad_vendida AS Disponible
+FROM producto, productovendido;
+
+select * from stock
+
+
+
 

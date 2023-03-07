@@ -10,3 +10,6 @@ Además agregué el atributo stock en producto y la idea es que pueda relacionar
 ** 2da entrega proyecto final.
 
 Agregué al repositorio el PDF con la lista y descripción de las funciones, SP y vistas creadas para el proyecto. Además en ScriptTriggers está el código para la creación de los triggers.
+
+** 7-3 
+Agregué el archivo sql "Sentencias Fink Garcia", desafío complementario de la semana del 4-3.

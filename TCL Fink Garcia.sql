@@ -32,6 +32,7 @@ INSERT INTO productovendido (detalle, idFactura, idUsuario, idProducto, cantidad
 VALUES ('Minas HB', 9753, 2, 25, 1); 
 savepoint punto_2;   
 
+-- commit; -- Va acá?
 -- release savepoint punto_1;   
 
 

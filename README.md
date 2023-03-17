@@ -15,5 +15,8 @@ Agregué al repositorio el PDF con la lista y descripción de las funciones, SP 
 Agregué el archivo sql "Sentencias Fink Garcia", desafío complementario de la semana del 4-3.
 
 
-** 10-32
+** 10-3
 Agregué el archivo SQL "TCL Fink Garcia", desafío entregable de la semana del 4-3.
+
+** 17-3 
+Agregué el archivo "Backup Fink Garcia, correspondiente al desafío entregable de  la semana en curso.
